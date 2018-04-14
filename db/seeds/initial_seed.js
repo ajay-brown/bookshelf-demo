@@ -16,7 +16,7 @@ exports.seed = function(knex, Promise) {
         .then(() => {
           return knex('task').insert([
             { name: 'User1', user_id: 1 },
-            { name: 'User1Task2', use\dtr_id: 1 },
+            { name: 'User1Task2', user_id: 1 },
             { name: 'User3', user_id: 3 }
           ]);
         });
