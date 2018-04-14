@@ -13,7 +13,7 @@ module.exports = {
       directory: __dirname + '/db/migrations'
     },
     seeds: {
-      directory: __dirname + '/sb/seeds'
+      directory: __dirname + '/db/seeds'
     }
   },
 
